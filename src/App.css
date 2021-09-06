@@ -1,0 +1,23 @@
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+  
+  .box {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .reload-btn{
+    width: 100%;
+  }
+
+  .page-heading{
+      color: #fff;
+      font-size: 50px;
+  }
